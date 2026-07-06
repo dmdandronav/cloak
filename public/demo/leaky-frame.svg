@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- CLOAK bundled demo frame: a fake screen-share with deliberately fake
+       leaks (test credentials only) so the pipeline is demoable headless. -->
+  <rect width="1280" height="720" fill="#e8eaed"/>
+  <!-- fake editor window -->
+  <rect x="60" y="50" width="760" height="560" rx="10" fill="#ffffff" stroke="#c4c9cf"/>
+  <rect x="60" y="50" width="760" height="44" rx="10" fill="#d7dbe0"/>
+  <circle cx="90" cy="72" r="7" fill="#e0655f"/>
+  <circle cx="114" cy="72" r="7" fill="#e0b95f"/>
+  <circle cx="138" cy="72" r="7" fill="#7fbf6a"/>
+  <text x="180" y="79" font-family="Menlo, monospace" font-size="20" fill="#4a5158">.env — my-startup</text>
+  <g font-family="Menlo, monospace" font-size="30" fill="#22262a">
+    <text x="100" y="160">NODE_ENV=production</text>
+    <text x="100" y="215">PORT=8080</text>
+    <text x="100" y="270">OPENAI_API_KEY=sk-Fk3q9Lm2Xw8Zt5Vb7Nc1</text>
+    <text x="100" y="325">AWS_ACCESS_KEY=AKIAIOSFODNN7EXAMPLE</text>
+    <text x="100" y="380">GITHUB_TOKEN=ghp_Qw3Er5Ty7Ui9Op1As3Df5Gh7Jk9Lz</text>
+    <text x="100" y="435">DATABASE_PASSWORD=tr0ub4dor-and-3</text>
+    <text x="100" y="490">APP_NAME=cloak-demo</text>
+    <text x="100" y="545">LOG_LEVEL=debug</text>
+  </g>
+  <!-- fake credit card held up to camera (Stripe test number) -->
+  <g transform="translate(880 180) rotate(-4)">
+    <rect width="340" height="210" rx="18" fill="#2b3440"/>
+    <rect width="340" height="210" rx="18" fill="none" stroke="#1d242d" stroke-width="2"/>
+    <rect x="26" y="36" width="52" height="38" rx="6" fill="#c9a24b"/>
+    <text x="26" y="126" font-family="Menlo, monospace" font-size="31" fill="#f2f4f6" letter-spacing="2">4242 4242 4242 4242</text>
+    <text x="26" y="166" font-family="Menlo, monospace" font-size="17" fill="#aab4be">VALID THRU 12/28</text>
+    <text x="26" y="192" font-family="Menlo, monospace" font-size="17" fill="#aab4be">JANE A DEVELOPER</text>
+  </g>
+  <!-- sticky note with a card number typo'd by a "coworker" -->
+  <g transform="translate(900 460) rotate(3)">
+    <rect width="300" height="150" fill="#f5df8a"/>
+    <text x="24" y="52" font-family="Menlo, monospace" font-size="22" fill="#5c5330">corp card:</text>
+    <text x="24" y="92" font-family="Menlo, monospace" font-size="24" fill="#5c5330">5555 5555 5555 4444</text>
+    <text x="24" y="128" font-family="Menlo, monospace" font-size="18" fill="#8a7c48">do not share!!</text>
+  </g>
+  <text x="60" y="680" font-family="Menlo, monospace" font-size="18" fill="#9aa2aa">CLOAK demo asset — every credential above is fake / a documented test value</text>
+</svg>
