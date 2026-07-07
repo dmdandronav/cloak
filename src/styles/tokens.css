@@ -1,0 +1,31 @@
+:root {
+  /* graphite surfaces */
+  --surface-0: oklch(16% 0.008 250);
+  --surface-1: oklch(21% 0.01 250);
+  --surface-2: oklch(26% 0.012 250);
+  --edge: oklch(34% 0.012 250);
+
+  /* signal green — safe-feed chrome */
+  --safe: oklch(85% 0.22 155);
+  --safe-dim: oklch(60% 0.14 155);
+  --safe-glow: oklch(85% 0.22 155 / 0.16);
+
+  /* hazard amber — redaction accents */
+  --hazard: oklch(80% 0.16 75);
+  --hazard-ink: oklch(20% 0.03 75);
+
+  /* text */
+  --ink: oklch(92% 0.005 250);
+  --ink-dim: oklch(68% 0.01 250);
+  --ink-faint: oklch(50% 0.01 250);
+
+  --danger: oklch(68% 0.2 25);
+
+  --font-mono: 'SF Mono', ui-monospace, Menlo, 'Cascadia Code', monospace;
+
+  --radius: 8px;
+  --space-panel: clamp(0.75rem, 0.5rem + 1vw, 1.25rem);
+
+  --duration-fast: 150ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
